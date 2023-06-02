@@ -1,4 +1,4 @@
-import { queryCompletion } from "./service"
+import { queryCompletion } from "./service.js"
 
 export const query = async (req, res) => {
     const { text, context } = req.body
